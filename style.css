@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +14,15 @@ header {
     padding: 15px;
     color: white;
 }
-
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 .logo {
     display: flex;
     align-items: center;
@@ -22,17 +31,6 @@ header {
 .logo img {
     height: 50px;
     margin-right: 10px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
 }
 
 .hero {
